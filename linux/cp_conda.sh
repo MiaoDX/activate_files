@@ -1,10 +1,11 @@
 #export CONDA_EXE='/home/zhixiang/miniconda3/bin/conda'
 #export CONDA_PYTHON_EXE='/home/zhixiang/miniconda3/bin/python'
 
-CONDA_EXE=${PWD}/cp_conda
-CONDA_PYTHON_EXE=$1
-echo $CONDA_EXE
-echo $CONDA_PYTHON_EXE
+#CONDA_EXE=${PWD}/cp_conda
+CONDA_EXE=$1
+CONDA_PYTHON_EXE=$2
+#echo $CONDA_EXE
+#echo $CONDA_PYTHON_EXE
 
 export _CE_M=''
 export _CE_CONDA=''
