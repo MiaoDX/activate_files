@@ -1,5 +1,13 @@
->> If there is one way, to not pollute the PATH variables, then I will take it, how hard it is.
+> If there is one way to not pollute the PATH variables, then I will take it, how hard it is.
 
+## Linux
+
+* [linux/mount_remote.sh](linux/mount_remote.sh)
+	- mount remote server into local, with fusermount to unmount
+* [linux/mount_remote_pyenv.sh](linux/mount_remote_pyenv.sh)
+	- mount remote server python environment
+
+## Windows
 
 There is `/home` in linux world, which can help us a lot when deal with paths in different computers, and in windows it is `%HOMEPATH%`. 
 
